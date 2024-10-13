@@ -1,11 +1,5 @@
 <template>
-    <div>
-        <NuxtLink to="/">首页</NuxtLink>
-        <NuxtLink to="/video">视频页</NuxtLink>
-        <van-button type="primary">主要按钮</van-button>
-        <van-button type="success">成功按钮</van-button>
-        <NuxtPage />
-    </div>
+    <NuxtPage />
 </template>
 <script setup lang="ts">
 useSeoMeta({
@@ -21,7 +15,7 @@ useSeoMeta({
 })
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import url('~/assets/style/base.scss');
 @import url('~/assets/style/color.scss');
 </style>
